@@ -101,3 +101,13 @@ footer{
     font-size:34px;
   }
 }
+
+#contact a{
+  color:#38bdf8;
+  text-decoration:none;
+  font-weight:600;
+}
+
+#contact a:hover{
+  text-decoration:underline;
+}
