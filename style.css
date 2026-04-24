@@ -213,4 +213,13 @@ nav ul{
 .hero-buttons{
   flex-direction:column;
 }
+  
+.link-card{
+  text-decoration:none;
+  color:white;
 }
+
+.link-card:hover{
+  cursor:pointer;
+}
+
