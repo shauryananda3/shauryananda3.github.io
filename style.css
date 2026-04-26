@@ -105,3 +105,63 @@ h2{
 font-size:40px;
 }
 }
+
+/* FORCE PORTFOLIO CARD GRID */
+.project-grid{
+display:grid !important;
+grid-template-columns:repeat(3,1fr) !important;
+gap:34px !important;
+align-items:start !important;
+}
+
+.project-card{
+width:100% !important;
+max-width:none !important;
+display:block !important;
+}
+
+.project-card img{
+width:100% !important;
+height:250px !important;
+object-fit:cover !important;
+display:block !important;
+}
+
+.card-content{
+padding:28px !important;
+}
+
+.card-content h3{
+font-size:24px !important;
+margin-bottom:16px !important;
+line-height:1.35 !important;
+}
+
+.card-content p{
+font-size:17px !important;
+line-height:1.7 !important;
+margin-bottom:24px !important;
+min-height:80px !important;
+}
+
+.card-content a{
+display:inline-block !important;
+padding:15px 28px !important;
+border-radius:14px !important;
+background:linear-gradient(135deg,#7c3aed,#6366f1) !important;
+color:#fff !important;
+text-decoration:none !important;
+font-weight:700 !important;
+}
+
+@media(max-width:1100px){
+.project-grid{
+grid-template-columns:repeat(2,1fr) !important;
+}
+}
+
+@media(max-width:768px){
+.project-grid{
+grid-template-columns:1fr !important;
+}
+}
