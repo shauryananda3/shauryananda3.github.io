@@ -99,7 +99,7 @@ To demonstrate the combination of:
 
 # 📈 Upcoming Enhancements
 
-- SQL Project Repository  
+- SQL Projects 
 - Business Analytics Case Studies  
 - Machine Learning Projects  
 - Generative AI Portfolio  
